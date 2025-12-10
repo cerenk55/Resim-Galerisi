@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resim Galerisi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Resim Galerisi </h2>
+        <p class="text-center text-muted">resimlere tıklayarak büyütebilirsiniz.</p>
+
+        <div class="row g-4">
+
+            <div class="col-md-4 col-sm-6">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://picsum.photos/id/1015/400/300" class="card-img-top tiklanabilir" alt="Manzara" data-bs-toggle="modal" data-bs-target="#modal1">
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://picsum.photos/id/1016/400/300" class="card-img-top tiklanabilir" alt="Kanyon" data-bs-toggle="modal" data-bs-target="#modal2">
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://picsum.photos/id/1018/400/300" class="card-img-top tiklanabilir" alt="Dağlar" data-bs-toggle="modal" data-bs-target="#modal3">
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://picsum.photos/id/1019/400/300" class="card-img-top tiklanabilir" alt="Deniz" data-bs-toggle="modal" data-bs-target="#modal4">
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://picsum.photos/id/1020/400/300" class="card-img-top tiklanabilir" alt="Ayı" data-bs-toggle="modal" data-bs-target="#modal5">
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://picsum.photos/id/1021/400/300" class="card-img-top tiklanabilir" alt="Orman" data-bs-toggle="modal" data-bs-target="#modal6">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal1" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Manzara</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="https://picsum.photos/id/1015/800/600" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal2" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">kanyon</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="https://picsum.photos/id/1016/800/600" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal3" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">dağlar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="https://picsum.photos/id/1018/800/600" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal4" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">deniz</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="https://picsum.photos/id/1019/800/600" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal5" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ayı</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="https://picsum.photos/id/1020/800/600" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal6" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">orman</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="https://picsum.photos/id/1021/800/600" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

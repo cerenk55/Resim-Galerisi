@@ -1,0 +1,17 @@
+
+body {
+    background-color: #f8f9fa;
+}
+
+
+.tiklanabilir {
+    cursor: pointer;
+    transition: transform 0.2s; 
+    object-fit: cover;
+}
+
+    
+    .tiklanabilir:hover {
+        transform: scale(1.03);
+        opacity: 0.9;
+    }
